@@ -1,0 +1,14 @@
+// Absolute position extend
+%posAbsolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Background image styles
+%backgroundImage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
