@@ -63,7 +63,7 @@ module.exports = {
             },
             // -- URL/IMG LOADER --
             {
-                test: /\.(png|jpg|jpe?g|gif|jfif)$/i,
+                test: /\.(png|jpg|jpe?g|gif|jfif|svg)$/i,
                 use: [
                     {
                         loader: 'file-loader',
