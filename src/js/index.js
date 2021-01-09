@@ -1,5 +1,7 @@
 // Import SCSS
 import '../styles/main.scss';
+import PhotoSwipe from 'photoswipe';
+import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default';
 
 // Photoswipie
 var pswpElement = document.querySelectorAll('.pswp')[0];
@@ -8,8 +10,11 @@ const blocksArr = [...blocks];
 
 // Build items array
 var items = [
-    { src: './img/Eiz-DL-XgAAa7xI.jfif', w: 1500, h: 900 },
-    { src: './img/spd.jpg', w: 1500, h: 900 },
+    { src: './img/Eiz-DL-XgAAa7xI.jfif', w: 600, h: 500 },
+    { src: './img/spd.jpg', w: 600, h: 500 },
+    { src: './img/asdfgh-0320.jpg', w: 600, h: 600 },
+    { src: './img/dario-0003.jpg', w: 600, h: 600 },
+    { src: './img/EkGEK80WkAAQpXx.jfif', w: 600, h: 600 }
 ];
 
 // define options (if needed)

@@ -6,7 +6,9 @@
 
 // Import components
 @import './components/buttons';
-// @import './components/photoswipe';
+$pswp__assets-path: "../../node_modules/photoswipe/src/css/default-skin/";
+@import '~photoswipe/src/css/main';
+@import '~photoswipe/src/css/default-skin/default-skin';
 
 // Import pages
 @import './pages/home';
