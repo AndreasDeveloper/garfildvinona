@@ -12,9 +12,11 @@ const blocksArr = [...blocks];
 var items = [
     { src: './img/Eiz-DL-XgAAa7xI.jfif', w: 600, h: 500 },
     { src: './img/spd.jpg', w: 600, h: 500 },
-    { src: './img/asdfgh-0320.jpg', w: 600, h: 600 },
-    { src: './img/dario-0003.jpg', w: 600, h: 600 },
-    { src: './img/EkGEK80WkAAQpXx.jfif', w: 600, h: 600 }
+    { src: './img/asdfgh-0320.jpg', w: 450, h: 600 },
+    { src: './img/dario-0003.jpg', w: 500, h: 600 },
+    { src: './img/EkGEK80WkAAQpXx.jfif', w: 500, h: 600 },
+    { src: './img/spcol.jpg', w: 500, h: 600 },
+    { src: './img/EjaSRA4XYAYouCV.jfif', w: 500, h: 600 }
 ];
 
 // define options (if needed)
