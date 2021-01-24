@@ -1,0 +1,37 @@
+// Footer
+.footer {
+    min-height: 20vh;
+    margin-top: 150px;
+    &__content {
+        @extend %flexRowCenterV;
+        flex-direction: column;
+        justify-content: center;
+        min-height: inherit;
+        h3 {
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        span {
+            font-weight: 600;
+            padding: 20px 0;
+        }
+        &__social {
+            display: flex;
+            padding-top: 20px;
+            .icon {
+                font-size: 35px;
+                margin: 0 10px;
+            }
+        }
+        &__adev {
+            padding-bottom: 10px;
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
