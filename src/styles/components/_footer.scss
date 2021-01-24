@@ -33,5 +33,14 @@
                 }
             }
         }
+        .heart-icon {
+            cursor: pointer;
+            font-size: 35px;
+            margin-top: 20px;
+            transition: all .2s ease-in-out;
+            &:hover {
+                font-size: 40px;
+            }
+        }
     }
 }

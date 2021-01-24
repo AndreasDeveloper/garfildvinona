@@ -16,7 +16,9 @@ var items = [
     { src: './img/dario-0003.jpg', w: 500, h: 600 },
     { src: './img/EkGEK80WkAAQpXx.jfif', w: 500, h: 600 },
     { src: './img/spcol.jpg', w: 500, h: 600 },
-    { src: './img/EjaSRA4XYAYouCV.jfif', w: 500, h: 600 }
+    { src: './img/IMG_20200103_175540_885.jpg', w: 500, h: 600 },
+    { src: './img/EjaSRA4XYAYouCV.jfif', w: 500, h: 600 },
+    { src: './img/IMG_aq5522.jpg', w: 500, h: 600 }
 ];
 
 // define options (if needed)
@@ -33,4 +35,9 @@ blocksArr.map((el, i) => {
         var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
         gallery.init();
     });
+});
+
+// Favorite functionality
+document.querySelector('#heartClick').addEventListener('click', e => {
+    e.srcElement.name = 'heart';
 });
